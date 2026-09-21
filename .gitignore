@@ -3,6 +3,10 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# SQLite database
+tickets.db
+temp.db
+
 # C extensions
 *.so
 
