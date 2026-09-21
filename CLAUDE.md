@@ -5,3 +5,4 @@ A ticket classifier with a notificiation system.
 - LangGraph
 - PyTest
 - Python
+- SQLite
