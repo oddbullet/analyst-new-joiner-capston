@@ -1,0 +1,21 @@
+[project]
+name = "analyst-new-joiner-capston"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "langgraph>=1.2.11",
+    "pytest>=9.1.1",
+]
+
+[project.scripts]
+analyst-new-joiner-capston = "analyst_new_joiner_capston:main"
+start = "meridian.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
