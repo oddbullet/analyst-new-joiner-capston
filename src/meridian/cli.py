@@ -2,7 +2,7 @@ import argparse
 import json
 import sys
 
-from src.meridian.graph import run_graph
+from meridian.graph import run_graph
 
 
 def main() -> None:

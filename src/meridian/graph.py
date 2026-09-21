@@ -2,7 +2,7 @@ from typing import TypedDict
 
 from langgraph.graph import StateGraph, END
 
-from src.meridian.ticket_classifier import classify_severity_node
+from meridian.ticket_classifier import classify_severity_node
 
 
 class TicketState(TypedDict, total=False):
